@@ -1,7 +1,0 @@
-﻿  ソース.cpp
-C:\Users\ohika\OneDrive\デスクトップ\プログラミング　練習用\zyouhousuugaku1\zyouhousuugaku1\ソース.cpp(9,9): warning C4101: 'n': ローカル変数は 1 度も使われていません。
-  ソース1.cpp
-  コードを生成中...
-C:\Users\ohika\OneDrive\デスクトップ\プログラミング　練習用\zyouhousuugaku1\zyouhousuugaku1\ソース1.cpp(14): warning C4715: 'fibo': 値を返さないコントロール パスがあります。
-ソース1.obj : error LNK2005: _main は既に ソース.obj で定義されています。
-C:\Users\ohika\OneDrive\デスクトップ\プログラミング　練習用\zyouhousuugaku1\Debug\zyouhousuugaku1.exe : fatal error LNK1169: 1 つ以上の複数回定義されているシンボルが見つかりました。
