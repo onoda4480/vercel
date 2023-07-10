@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ログインフォーム</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='CSS/temp.css') }}">
+</head>
+<body>
+  <div class="container">
+    <div class="row header">
+      <span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>
+      設定画面
+    </div>
+    <form action="/botan" method="POST">
+      <fieldset class="form-group">
+        <div class="form-group">
+          <legend>水量</legend>
+          <select name="water">
+            <option value="10">50</option>
+            <option value="20">100</option>
+            <option value="30">150</option>
+            <option value="40">200</option>
+            <option value="59">300</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <legend>間隔(時間)</legend>
+          <select name="time">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="4">4</option>
+            <option value="8">8</option>
+            <option value="12">12</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <legend>ふりがな</legend>
+        </div>
+        <div class="form-group">
+          <legend>生年月日</legend>
+          <input type="date" class="form-control" value="2017-10-04">
+        </div>
+        <div class="form-group">
+          <legend>電源</legend>
+          <div>
+            <label>
+              <input type="radio" name="optionsRadios">
+              ON
+            </label>
+            <label>
+              <input type="radio" name="optionsRadios">
+              OFF
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary pull-right">完了</button>
+      </fieldset>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+// NOTE: よくわからないけれど，Bootstrap にあるべき下記が読み込まれないので，
+// 書いておく．
+.input-group > .input-group-append > .input-group-text {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.input-group-text {
+    font-family: "Segoe UI Emoji";
+}
+.time-icon:before {
+    content: "\1f55b";
+}
+
+.fa-arrow-down:before {
+    content: "\25BC";
+}
+
+.fa-arrow-up:before {
+    content: "\25B2";
+}
+
+.switchToggle input + label:before,
+.switchToggle input + input + label:before {
+    content: "無効";
+    width: 40px;
+}
+.switchToggle input:checked + label:before,
+.switchToggle input:checked + input + label:before {
+    content: "有効";
+    width: 40px;
+}
+
+// .switchToggle label {
+//     width: 120px;
+//     max-width: 120px;
+// }

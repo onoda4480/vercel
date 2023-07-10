@@ -10,8 +10,10 @@
         <title>My Page</title>
     </head>
 	<body>
-        <h1>{{ dname }} の売り上げ予想は以下の通りです。</h1>
+        <h1>{{ dname }} 月の売り上げ予想は以下の通りです。</h1>
         <button type="button" onclick="history.back()">続けて予想</button>
-        <hi>{{ result }}</hi>>
-	</body>
+        <h2>{{ result|safe }}</h2>
+            
+        
+    </body>
 </html>

@@ -3,13 +3,13 @@ import pandas as pd
 from flask import Flask, render_template, request
 from sklearn.decomposition import PCA
 from sklearn.cluster import KMeans
-import sample
+#import sample
 
-sample.my_function()
+#sample.my_function()
 
 app = Flask(__name__)
 
-csv_file = 'C:/Users/sakuy/AppData/Local/Programs/Python/Python310/Scripts/year..csv'
+csv_file = '11\year..csv'
 df = pd.read_csv(csv_file, usecols=[0])
 items = df['月'].to_list()
 
@@ -21,7 +21,7 @@ def show_toppage():
 def pca():
     if request.method == 'POST':
         dname = request.form.get('year')
-        result = sample.my_function()
+        result = dname
         return render_template('pca.html', dname=dname , result=result)
 if __name__ == '__main__':
     app.run()

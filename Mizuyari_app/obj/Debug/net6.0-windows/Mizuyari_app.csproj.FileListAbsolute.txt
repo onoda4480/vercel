@@ -1,0 +1,17 @@
+C:\Users\kenke\大学\3年\ソフトウエアシステム開発\Mizuyari_app\bin\Debug\net6.0-windows\Mizuyari_app.exe
+C:\Users\kenke\大学\3年\ソフトウエアシステム開発\Mizuyari_app\bin\Debug\net6.0-windows\Mizuyari_app.deps.json
+C:\Users\kenke\大学\3年\ソフトウエアシステム開発\Mizuyari_app\bin\Debug\net6.0-windows\Mizuyari_app.runtimeconfig.json
+C:\Users\kenke\大学\3年\ソフトウエアシステム開発\Mizuyari_app\bin\Debug\net6.0-windows\Mizuyari_app.dll
+C:\Users\kenke\大学\3年\ソフトウエアシステム開発\Mizuyari_app\bin\Debug\net6.0-windows\Mizuyari_app.pdb
+C:\Users\kenke\大学\3年\ソフトウエアシステム開発\Mizuyari_app\obj\Debug\net6.0-windows\Mizuyari_app.csproj.AssemblyReference.cache
+C:\Users\kenke\大学\3年\ソフトウエアシステム開発\Mizuyari_app\obj\Debug\net6.0-windows\Mizuyari_app.csproj.GenerateResource.cache
+C:\Users\kenke\大学\3年\ソフトウエアシステム開発\Mizuyari_app\obj\Debug\net6.0-windows\Mizuyari_app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kenke\大学\3年\ソフトウエアシステム開発\Mizuyari_app\obj\Debug\net6.0-windows\Mizuyari_app.AssemblyInfoInputs.cache
+C:\Users\kenke\大学\3年\ソフトウエアシステム開発\Mizuyari_app\obj\Debug\net6.0-windows\Mizuyari_app.AssemblyInfo.cs
+C:\Users\kenke\大学\3年\ソフトウエアシステム開発\Mizuyari_app\obj\Debug\net6.0-windows\Mizuyari_app.csproj.CoreCompileInputs.cache
+C:\Users\kenke\大学\3年\ソフトウエアシステム開発\Mizuyari_app\obj\Debug\net6.0-windows\Mizuyari_app.dll
+C:\Users\kenke\大学\3年\ソフトウエアシステム開発\Mizuyari_app\obj\Debug\net6.0-windows\refint\Mizuyari_app.dll
+C:\Users\kenke\大学\3年\ソフトウエアシステム開発\Mizuyari_app\obj\Debug\net6.0-windows\Mizuyari_app.pdb
+C:\Users\kenke\大学\3年\ソフトウエアシステム開発\Mizuyari_app\obj\Debug\net6.0-windows\Mizuyari_app.genruntimeconfig.cache
+C:\Users\kenke\大学\3年\ソフトウエアシステム開発\Mizuyari_app\obj\Debug\net6.0-windows\ref\Mizuyari_app.dll
+C:\Users\kenke\大学\3年\ソフトウエアシステム開発\Mizuyari_app\obj\Debug\net6.0-windows\Mizuyari_app.watersprrinkler.resources

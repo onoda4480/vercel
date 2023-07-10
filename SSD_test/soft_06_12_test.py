@@ -134,13 +134,12 @@ ax1.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m'))
 plt.title("Temperature, Humidity, and Sales Forecast")
 #plt.show()
 
-
 # グラフの領域を作成
 fig, ax = plt.subplots()
 plt.rcParams['font.family'] = 'Meiryo'# 使用するフォントを指定
 
 x = sales_list
-height = data[50]
+#height = data[50]
 # 棒グラフを作成
 ax.bar(x, height)
 

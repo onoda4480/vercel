@@ -25,4 +25,14 @@ input, button {
     font-size: 20px;
     color: #413f3f;
     border: 1px solid #bbc4cc;
-}   
+}
+
+h2 {
+    font-size: 24px;
+    padding: 10px;
+    text-align: center; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+  }
+  

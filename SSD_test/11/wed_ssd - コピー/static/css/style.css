@@ -1,0 +1,43 @@
+body {
+    background-color:rgb(204, 228, 218);
+    font-family: "白";
+    text-align: center;
+}
+form {
+    margin: 30px auto;
+    padding: 5px;
+}
+h1 {
+    background-color: rgb(158, 213, 231);
+    color: #413f3f;
+    border: 2px solid #69abe0;
+}
+select {
+    background-color: #dee9ec;
+    font-size: 24px;
+    color: #413f3f;
+    border: 2px solid #69abe0;
+}
+option {
+    text-align: center;
+}
+input, button {
+    font-size: 20px;
+    color: #413f3f;
+    border: 1px solid #bbc4cc;
+}
+
+table{
+    font-size: 40px;
+    padding: 40px;
+    text-align: center;
+}
+
+.box_content{
+    margin: '0 auto';
+    background-color: 'red';
+}
+td{
+    font-size: 40px;
+    text-align: center;
+}
