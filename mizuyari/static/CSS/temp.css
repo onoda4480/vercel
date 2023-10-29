@@ -2,6 +2,7 @@
     max-width:400px;
     border: solid 1px #FF773E;
     border-radius:10px 10px 0px 0px;
+
   }
 
 .header {
@@ -9,8 +10,26 @@
     border-radius:10px 10px 0px 0px;
     padding: 15px;
     font-size: 25px;
+ 
   }
 
 fieldset{
-    padding: 15px;
+    padding: 100px;
+
   }
+.box_content{
+  max-width:1000px;
+  border-radius:10px 10px 0px 0px;
+
+}
+
+.form-group{
+  font-size: 30px;
+  text-align: center;
+}
+
+.time{
+  font-size: 130%;
+  width: 1em;
+  height:3em;
+}

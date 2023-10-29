@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>ログインフォーム</title>
+  <title>自動水やり</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='CSS/temp.css') }}">
 </head>
+
 <body>
   <div class="container">
     <div class="row header">
@@ -13,7 +15,7 @@
     <form action="/botan" method="POST">
       <fieldset class="form-group">
         <div class="form-group">
-          <legend>水量</legend>
+          <legend>水量(ml)</legend>
           <select name="water">
             <option value="10">50</option>
             <option value="20">100</option>
@@ -33,15 +35,9 @@
             <option value="12">12</option>
           </select>
         </div>
+
         <div class="form-group">
-          <legend>ふりがな</legend>
-        </div>
-        <div class="form-group">
-          <legend>生年月日</legend>
-          <input type="date" class="form-control" value="2017-10-04">
-        </div>
-        <div class="form-group">
-          <legend>電源</legend>
+          <legend>電源</legend></select>
           <div>
             <label>
               <input type="radio" name="optionsRadios">
@@ -51,11 +47,16 @@
               <input type="radio" name="optionsRadios">
               OFF
             </label>
+
           </div>
+        </div>
+        <div>
+          <button type="submit" class="btn btn-primary pull-right">テスト</button>
         </div>
         <button type="submit" class="btn btn-primary pull-right">完了</button>
       </fieldset>
     </form>
   </div>
 </body>
+
 </html>

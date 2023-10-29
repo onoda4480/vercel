@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="jp">
+<div>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>売り上げ予想</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+</div>
+
+<body>
+    <div>
+        <h1>今月の売り上げ予想のグラフは以下の通りです。</h1>
+        <!-- ここでグラフの画像を表示 -->
+        <div>    
+            <img src="{{ url_for('static', filename='forecast_plot.png') }}" alt="売上予想グラフ">
+            <div>
+                <button type="button" onclick="history.back()" class="bou">戻る</button>
+            </div>
+        </div>        
+    </div>
+</body>
+
+</html>

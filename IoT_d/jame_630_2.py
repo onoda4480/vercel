@@ -66,6 +66,12 @@ docterm_tv = tv.fit
 
 t = Tokenizer(wakati=True)
 
+
 print(len(wakati))
 print(wakati[0])
 print(label[0])
+
+wakati_id = [[dic_inv[word] for word in waka] for waka in wakati_id]
+for waka in wakaki
+    tmp = []
+    for [EOF]

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>売り上げ予想</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <div>
+        <form action="{{ url_for('gura') }}" method="POST">
+            <h1>{{ dname }} 月の売り上げ予想は以下の通りです。</h1>
+            <button type="button" onclick="history.back()" class="bou">戻る</button>
+            <button type="submit" class="btn btn-primary pull-right bou">グラフを表示</button>
+            <div>
+                <div>
+
+                    <table style="margin: 0 auto;">
+                        <thead>
+                            <tr>
+                                <th>順位</th>
+                                <th>名前</th>
+                                {% for col in result.columns %}
+                                <th>{{ col }}</th>
+                                {% endfor %}
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for rank, row in result.iterrows() %}
+                            <tr>
+                                <td>{{ loop.index }}</td>
+                                <td>{{ rank }}</td>
+                                {% for value in row %}
+                                <td>{{ value }}</td>
+                                {% endfor %}
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+
+                </div>
+
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

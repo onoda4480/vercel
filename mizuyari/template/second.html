@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>売り上げ予想</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-        <title>My Page</title>
-    </head>
-    <body>
-        <h1>{{ water_amount }} mlの水を{{ time_amount }}時間ごとに取る設定が完了しました。</h1>
-        <button type="button" onclick="history.back()">戻る</button>
-    </body>
+
+<head>
+    <title>自動水やり</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='CSS/temp.css') }}">
+</head>
+
+<body>
+    <div>
+        <div class="row header">
+            <span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>
+            設定画面
+        </div>
+        <fieldset class="form-group">
+            <div class="box_content">
+                <div>
+                    <h1>設定が完了しました。</h1>
+                </div>
+                <div>
+                    <button type="button" onclick="history.back()">戻る</button>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+</body>
+
 </html>
